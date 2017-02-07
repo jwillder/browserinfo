@@ -1,0 +1,44 @@
+html { 
+    font-size: 62.5%;
+}
+
+body {
+    overflow:hidden;
+    font-family: sans-serif;
+}
+
+.viewport-box {
+    position:absolute;
+    top:0px;
+    left:0px;
+    box-shadow:inset 0px 0px 0px 1px black;
+}
+.viewport-box p {
+    font-weight: bold;
+    font-size: 2.2rem; 
+}
+p.right {
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    writing-mode: tb-rl;
+}
+p.bottom {
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+}
+span.bootstrap {
+    font-weight: normal;
+    font-size: 1.6rem; 
+}
+
+.box-480 { width: 480px; height: 480px; background-color: #eee; }
+.box-640 { width: 640px; height: 640px; background-color: #ddd; }
+.box-768 { width: 768px; height: 768px; background-color: #ccc; }
+.box-800 { width: 800px; height: 800px; background-color: #bbb; }
+.box-992 { width: 992px; height: 992px; background-color: #aaa; }
+.box-1024 { width: 1024px; height: 1024px; background-color: #999; }
+.box-1200 { width: 1200px; height: 1200px; background-color: #888; }
+.box-1280 { width: 1280px; height: 1280px; background-color: #777; }
+.box-1368 { width: 1368px; height: 1368px; background-color: #666; }
