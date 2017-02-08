@@ -21,7 +21,7 @@ p.right {
     position: absolute;
     top: 5px;
     right: 2px;
-    writing-mode: tb-rl;
+    writing-mode: vertical-lr;
 }
 p.bottom {
     position: absolute;
